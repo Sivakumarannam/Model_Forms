@@ -34,3 +34,21 @@ def insert_access_records(request):
             AFDO.save()
             return HttpResponse('insert_access_records is done')
     return render(request,'insert_access_records.html',d)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

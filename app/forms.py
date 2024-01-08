@@ -11,6 +11,14 @@ class WebpageForm(forms.ModelForm):
     class Meta():
         model=Webpage
         fields='__all__'
+        # fields=['topic_name','name']
+        # # exclude=['url']
+        # # labels={'topic_name':'TN','email':'E'}
+        # widgets={'email':forms.PasswordInput}
+        
+
+
+
 
 class AccessRecordsForm(forms.ModelForm):
     class Meta():

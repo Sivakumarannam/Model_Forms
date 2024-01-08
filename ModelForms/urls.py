@@ -24,3 +24,7 @@ urlpatterns = [
     path('insert_webpage/',insert_webpage,name='insert_webpage'),
     path('insert_access_records/',insert_access_records,name='insert_access_records'),
 ]
+
+admin.site.site_header='Table Form'
+admin.site.site_title='Siva'
+admin.site.index_title='Fun Today'
